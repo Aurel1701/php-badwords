@@ -9,7 +9,7 @@ $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ali
 // tramite sterl mi darà la lunghezza dei caratteri che prendono gli spazi chiusi 
 echo strlen($text);
 // gli passo la parola che decido di censurare con $_GET
-$censured = $_GET['Lorem'];
+$censured = $_GET['text'];
 
 $new_text = (str_replace($censured, '***', $text));
 
